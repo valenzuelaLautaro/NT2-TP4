@@ -3,6 +3,7 @@
   <div id="app" class="container">
     <div class="jumbotron my-3">
       <NavBar />
+      <router-view></router-view>
     </div>
   </div>
 
