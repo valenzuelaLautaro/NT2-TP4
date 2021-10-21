@@ -9,9 +9,9 @@
         <th>Email</th>
       </tr>
       <tr v-for="(post, index) in posts" :key="index">
-        <td>post.nombre</td>
-        <td>post.edad</td>
-        <td>post.email</td>
+        <td>{{post.nombre}}</td>
+        <td>{{post.edad}}</td>
+        <td>{{post.email}}</td>
       </tr>
     </table>
   </section>
